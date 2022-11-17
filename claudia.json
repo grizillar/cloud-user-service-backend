@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "arn:aws:iam::293987349676:role/LabRole",
+    "name": "html",
+    "region": "us-east-1",
+    "sharedRole": true
+  },
+  "api": {
+    "id": "ljsvhw5y5b"
+  }
+}

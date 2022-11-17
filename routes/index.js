@@ -2,6 +2,7 @@ const express = require("express");
 const controllers = require("../controllers");
 const router = express.Router();
 
+router.route("/").get(controllers.getAllUser).post(controllers.createUser);
 router.route("/api").get(controllers.getAllUser).post(controllers.createUser);
 router.route("/api/googleRegister").post(controllers.createGoogleUser);
 router.route("/api/googleLogin").post(controllers.googleCheckLogin);
